@@ -1,0 +1,94 @@
+<!--
+Mein Portal – abgeschlossen am 06.10.2025
+Ergebnis einer Reise durch offene und geschlossene Formate.
+Lehre: Proprietäre Formate nerven. Offene Formate bleiben.
+-->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximus Prime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="greeting">Hallo</div>
+        <div id="title">Maximus Prime</div>
+        <div id="Time">Time</div>
+    </header>
+    <main class="grids">
+        <div id="shopping">
+            <h2>
+                Einkaufen 🛒
+            </h2>
+    <ul>
+        <li><a href="https://www.amazon.de/" target="_blank">Amazon</a></li>
+        <li><a href="https://www.willhaben.at/" target="_blank">Willhaben</a></li>
+        <li><a href="https://www.mediamarkt.at/" target="_blank">Media Markt</a></li>
+        <li><a href="https://www.thalia.at/" target="_blank">Thalia</a></li>
+        <li><a href="https://www.temu.com/at" target="_blank">Temu</a></li>
+    </ul>
+        </div>
+        <div id="notes">
+            <h2>
+                Notizen 📝
+            </h2>
+            <textarea placeholder="Hier deine Notiz eingeben...">
+
+            </textarea>
+        </div>
+        <div id="websites">
+            <h2>
+                Webseiten 🌐
+            </h2>
+            <ul>
+                <li><a href="https://email.ionos.de/appsuite/#!!&app=io.ox/mail&folder=default0//ue%7Dj6Ywan" target="_blank">Mail</a></li>
+                <li><a href="https://www.deepl.com/de/translator" target="_blank">Deepl</a></li>
+                <li><a href="https://www.instagram.com/quiteplace20/" target="_blank">Instagram</a></li>
+                <li><a href="https://web.getbring.com/app/lists/0" target="_blank">Bring</a></li>
+                <li><a href="https://www.google.at/maps/@47.8058377,13.4661507,16z?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Google Maps</a></li>
+            </ul>
+
+        </div>
+        <div id="colour">
+            <h2>
+                Farbtool 🎨
+            </h2>
+    <input type="color" id="colorPicker" value="#ff0000">
+    <input type="text" id="colorInput" placeholder="#ff0000">
+    <button id="colorButton">Farbe anzeigen</button>
+    <div id="colorPreview"></div>
+        </div>
+         <div id="wikipedia">
+            <h2>
+                Wikipedia 📜
+            </h2>
+            <form id="wikiForm" target="_blank">
+        <select id="wikiLang">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+        </select>
+        <input type="text" id="wikiSearch" name="search" placeholder="Suchbegriff eingeben...">
+        <button type="submit">Suchen</button>
+    </form>
+        </div>
+        <div id="farbpallete">
+            <h2>
+                Farbpallete 💻
+            </h2>
+                <input type="text" id="paletteInput" placeholder="#ff0000">
+    <button id="paletteAdd">Hinzufügen</button>
+    <button id="paletteClear">Alles löschen</button>
+    <button id="paletteExportText">Exportieren (.hex)</button>
+
+    <div id="paletteList"></div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
