@@ -8,20 +8,24 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #1e1e2f; /* dunkler Hintergrund */
-        color: #e0e0e0;           /* helle Schrift */
+        background-color: #1e1e2f;
+        color: #e0e0e0;
     }
 
-    /* Optional: Kacheln etwas dunkler machen */
     .grids > div {
         box-shadow: 0 4px 12px rgba(0,0,0,0.6);
     }
 
-    /* Optional: Header stärker abdunkeln */
     header {
         background: linear-gradient(90deg, #4a148c, #880e4f);
     }
+
+    /* 👇 Neu hinzufügen */
+    .grids > div:hover {
+        box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
 }
+
 
 /* ==============================
    2. Header
