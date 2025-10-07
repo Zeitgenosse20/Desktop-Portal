@@ -445,30 +445,6 @@ header:hover {
     color: red;
 }
 
-
-
-/* Tooltip für HEX-Code */
-.paletteItem::after {
-    content: attr(data-color);
-    position: absolute;
-    bottom: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0,0,0,0.75);
-    color: white;
-    padding: 3px 6px;
-    font-size: 12px;
-    border-radius: 6px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease;
-    white-space: nowrap;
-}
-
-.paletteItem:hover::after {
-    opacity: 1;
-}
-
 #paletteList {
     display: flex;
     flex-wrap: wrap;
