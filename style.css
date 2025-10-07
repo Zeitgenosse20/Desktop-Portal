@@ -266,18 +266,6 @@ header:hover {
     background: #ffdd00;
 }
 
-/* Spezielle Farbe für den Procreate Converter Link */
-.converter {
-    background: linear-gradient(135deg, #ff8a00, #e52e71);
-    color: #fff;
-}
-
-.converter:hover {
-    background: linear-gradient(135deg, #ff9f43, #ff6a88);
-    transform: scale(1.05);
-}
-
-
 /* ==============================
    9. Farbtool
    ============================== */
