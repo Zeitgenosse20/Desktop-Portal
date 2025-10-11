@@ -266,12 +266,12 @@ header:hover {
 }
 
 /* Google Maps */
-#websites a[href*="google"] {
-    background: #f4c542; /* Google-Gelb */
+#websites a[href*="github"] {
+    background: #1f2328; /* Google-Gelb */
     color: white;
 }
-#websites a[href*="google"]:hover {
-    background: #ffdd00;
+#websites a[href*="github"]:hover {
+    background: #000000;
 }
 
 /* ==============================
